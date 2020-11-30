@@ -1,0 +1,11 @@
+@mixin circle($size) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+
+.sm-circle {
+  @include circle(50px);
+
+  background: #000;
+}

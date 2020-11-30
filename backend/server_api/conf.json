@@ -1,0 +1,9 @@
+{
+  "port": 8081,
+  "sequelize": {
+    "force": false
+  },
+  "corsOptions": {
+    "origin": "*"
+  }
+}
